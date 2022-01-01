@@ -1,0 +1,80 @@
+body{
+    background-color:#F3E4E1
+}
+.header {
+	width:100%;
+	padding-top: 80px;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 50;
+	z-index: 1000;
+
+}
+.container {
+  position:sticky;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color:#FFFAF0;
+  width: 100%;
+  padding: 20px;
+}
+<style>
+h1 {
+  color: blue;
+  font-family: cursive;
+  font-size: 300%;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+}
+.images{
+  width:200px;
+  text-align:center;
+  display:block;
+  border: 1px solid transparent;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top:20px;
+  float:left;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+ .font_2{
+    line-height:1.5em;
+    text-align:center;
+    font-size:34px}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/579107bc579fb3d29bbf8014/1586407850349-6YII4HP6BFLKECYL1FK5/Dessert+Goals+Zoom+Background+6.png");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container1 {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
