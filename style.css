@@ -1,6 +1,7 @@
 body{
     background-color:#F3E4E1
 }
+
 .header {
 	width:100%;
 	padding-top: 80px;
@@ -9,8 +10,8 @@ body{
 	left: 0;
 	right: 50;
 	z-index: 1000;
-
 }
+
 .container {
   position:sticky;
   max-width: 800px;
@@ -26,6 +27,7 @@ body{
   width: 100%;
   padding: 20px;
 }
+
 <style>
 h1 {
   color: blue;
@@ -37,6 +39,7 @@ h1 {
   clear: both;
   display: table;
 }
+
 .images{
   width:200px;
   text-align:center;
@@ -50,6 +53,7 @@ h1 {
   width: 33.33%;
   padding: 5px;
 }
+
  .font_2{
     line-height:1.5em;
     text-align:center;
@@ -57,6 +61,7 @@ h1 {
 body, html {
   height: 100%;
 }
+
 {
   box-sizing: border-box;
 }
@@ -69,6 +74,7 @@ body, html {
   background-size: cover;
   position: relative;
 }
+
 .container1 {
   position: absolute;
   right: 0;
@@ -77,6 +83,7 @@ body, html {
   padding: 16px;
   background-color: white;
 }
+
 .card {
   display:inline-block;
 }
